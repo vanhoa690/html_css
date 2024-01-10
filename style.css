@@ -1,7 +1,17 @@
+body {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
 /* Selector the HTML : style cho toan the HTML */
 h3 {
   color: green;
-  font-size: 24px;
+  font-size: 14px;
+  /* 1rem  */
+  /* 1em */
+  /* 100% */
+  /* vh */
+  /* vw */
   font-weight: bold;
 }
 
@@ -19,4 +29,10 @@ h3 {
   color: blue !important;
 }
 
+.description {
+  text-align: left;
+}
 
+.heading {
+  text-align: center;
+}

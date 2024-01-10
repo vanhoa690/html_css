@@ -54,3 +54,34 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
       h3 {
         color: green;
         } <br>
+
+## Day 3:
+
+- Font chữ:
+  - font-family: import Google Fonts
+  - font-size:14px; (16px)
+  - font-weight:bold; (700): in đậm chữ (400 - chữ bình thường)
+- Căn lề đoạn text:
+  - text-align: center;
+  - text-decoration: none; ( bỏ gạch chân liên kết thẻ a)
+  - line-height: 20px (1: tỷ lệ): độ cao của chữ
+- Hệ màu
+  - color:“red”; text
+  - color:“rgb(255, 0, 0)”: max 255, min: 0
+  - color:“#FF0000”: hex : 6 ký tự or 3 ký tự ( chữ + số)
+- Đơn vị đo
+  - px: 1px = 1 điểm ảnh
+  - %: 100%;
+  - rem, em: đơn vi đo đổi px 1rem = 16px,
+  - vh, vh: đơn chiều dài và chiều rộng của màn hình
+- Thẻ liên kết a:
+  - a:visited{}: link đã được kích
+  - a:active{}: home, blog: menu nổi bật lên -> khách hàng biết trang nào
+  - a:hover{}: di chuột vào thì nổi css ví dụ color, font-size
+- Class: có thể đặt nhiều tên class trong thẻ html
+- 3 Cách Selector:
+  - Thẻ html.ten_class: h1.red {}: style class
+  - Selector1 Selector2{}: chọn selector2 là con F1, F2, ... của cha Selector
+  - Selector1 > Selector2{}: chọn selector 2 là con F1 của Selector cha
+  - ten_classA, ten_classB {}: style chung cho nhiều class
+
