@@ -57,31 +57,39 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
 
 ## Day 3:
 
-- Font chữ:
-  - font-family: import Google Fonts
-  - font-size:14px; (16px)
-  - font-weight:bold; (700): in đậm chữ (400 - chữ bình thường)
-- Căn lề đoạn text:
-  - text-align: center;
-  - text-decoration: none; ( bỏ gạch chân liên kết thẻ a)
-  - line-height: 20px (1: tỷ lệ): độ cao của chữ
-- Hệ màu
-  - color:“red”; text
-  - color:“rgb(255, 0, 0)”: max 255, min: 0
-  - color:“#FF0000”: hex : 6 ký tự or 3 ký tự ( chữ + số)
-- Đơn vị đo
-  - px: 1px = 1 điểm ảnh
-  - %: 100%;
-  - rem, em: đơn vi đo đổi px 1rem = 16px,
-  - vh, vh: đơn chiều dài và chiều rộng của màn hình
-- Thẻ liên kết a:
-  - a:visited{}: link đã được kích
-  - a:active{}: home, blog: menu nổi bật lên -> khách hàng biết trang nào
-  - a:hover{}: di chuột vào thì nổi css ví dụ color, font-size
-- Class: có thể đặt nhiều tên class trong thẻ html
-- 3 Cách Selector:
-  - Thẻ html.ten_class: h1.red {}: style class
-  - Selector1 Selector2{}: chọn selector2 là con F1, F2, ... của cha Selector
-  - Selector1 > Selector2{}: chọn selector 2 là con F1 của Selector cha
-  - ten_classA, ten_classB {}: style chung cho nhiều class
+- Font chữ: <br>
+  - font-family: import Google Fonts  <br>
+  - font-size:14px; (16px)  <br>
+  - font-weight:bold; (700): in đậm chữ (400 - chữ bình thường)  <br>
+- Căn lề đoạn text:  <br>
+  - text-align: center;  <br>
+  - text-decoration: none; ( bỏ gạch chân liên kết thẻ a)  <br>
+  - line-height: 20px (1: tỷ lệ): độ cao của chữ  <br>
+- Hệ màu  <br>
+  - color:“red”; text  <br>
+  - color:“rgb(255, 0, 0)”: max 255, min: 0  <br>
+  - color:“#FF0000”: hex : 6 ký tự or 3 ký tự ( chữ + số)  <br>
+- Đơn vị đo  <br>
+  - px: 1px = 1 điểm ảnh  <br>
+  - %: 100%;  <br>
+  - rem, em: đơn vi đo đổi px 1rem = 16px,  <br>
+  - vh, vh: đơn chiều dài và chiều rộng của màn hình  <br>
+- Thẻ liên kết a:  <br>
+  - a:visited{}: link đã được kích  <br>
+  - a:active{}: home, blog: menu nổi bật lên -> khách hàng biết trang nào  <br>
+  - a:hover{}: di chuột vào thì nổi css ví dụ color, font-size  <br>
+- Class: có thể đặt nhiều tên class trong thẻ html  <br>
+- 3 Cách Selector:  <br>
+  - Thẻ html.ten_class: h1.red {}: style class  <br>
+  - Selector1 Selector2{}: chọn selector2 là con F1, F2, ... của cha Selector  <br>
+  - Selector1 > Selector2{}: chọn selector 2 là con F1 của Selector cha  <br>
+  - ten_classA, ten_classB {}: style chung cho nhiều class  <br>
 
+
+## Day 4: 
+- Flexbox: 
+- display: flex (tự động thành 1 hàng )
+- justify-content: center; (căn giữa) : căn trái, căn phải, căn đều 2 bên ...
+- gap: 24px; (các phần tử cách nhau 24px)
+- Game thực hành flexbox: https://flexboxfroggy.com/ (LAb 2: Lv 1-> 10)
+- Flexbox: https://topdev.vn/blog/su-dung-bo-cuc-trang-flexbox-trong-css/
