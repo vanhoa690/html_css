@@ -1,38 +1,27 @@
-body {
-  /* font-family: "Roboto", sans-serif; */
-  font-family: "Montserrat", sans-serif;
-}
-
-/* Selector the HTML : style cho toan the HTML */
 h3 {
-  color: green;
-  font-size: 14px;
-  /* 1rem  */
-  /* 1em */
-  /* 100% */
-  /* vh */
-  /* vw */
-  font-weight: bold;
+color:rgb(0, 69, 99);
 }
-
-/* .ten_class : style class*/
-.intro {
-  color: blueviolet;
+.idk {
+    border: 5px solid red;
+    width:180px;
+    color:blueviolet;
+    font-size: 200%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/* #ten_id: style id (id duy nhat) */
-#address {
-  color: red;
+h1 {
+    border: 5px solid rgb(125, 226, 239);
+    width:150px;
 }
-
-.from {
-  color: blue !important;
+#name {
+    color:darkblue ;
 }
-
-.description {
-  text-align: left;
+.tim {
+    color:red !important;
 }
-
-.heading {
-  text-align: center;
+.tim2 {
+    color:orangered;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
 }
