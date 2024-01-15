@@ -1,3 +1,4 @@
+/* Reset CSS */
 * {
   margin: 0;
   padding: 0;
@@ -5,51 +6,45 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+}
+
+/* Xoa gach chan lien ket */
+a {
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
 }
 
-a {
-  cursor: pointer;
-  text-decoration: none;
-  color: #333;
-}
+/* Flexbox:  display: flex */
 
-.navbar {
-  padding: 20px;
+.container {
+  max-width: 1248px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.container {
-  max-width: 1100px;
   margin: 0 auto;
+  height: 88px;
 }
-
-.main-menu {
+.logo {
+  width: 123px;
+  height: 32px;
+}
+.menu-list {
   display: flex;
-  gap: 24px;
+  gap: 40px;
 }
 
-.link,
-.btn-login {
-  font-weight: 600;
-}
-
-.link:hover,
-.btn-login:hover {
-  color: #4891ff;
-  opacity: 0.8;
-  transition: 0.5s;
+.menu-link {
+  color: #131316;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
 }
 
 .btn-login {
-  padding: 10px 20px;
-  background-color: #f4f4f6;
-  border-radius: 10px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
 }
