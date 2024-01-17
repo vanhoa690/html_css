@@ -19,6 +19,10 @@ ul {
 
 /* Flexbox:  display: flex */
 /* CSS Header */
+header {
+  padding-bottom: 72px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -49,9 +53,17 @@ nav {
 }
 
 /* Hero */
+
 .container {
   max-width: 1248px;
   margin: 0 auto;
+}
+
+.hero {
+  background-image: url("./images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 650px;
 }
 
 .title {
