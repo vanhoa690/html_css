@@ -120,3 +120,26 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
 - image: url('link_hinh_anh') <br>
 - no-repeat: ko lặp lại hình ảnh <br>
 - position: căn hình ảnh so với khung hình (center center) <br>
+
+## Day 6:
+
+- Figma
+  - Chuyển sang devMode (góc trên cùng tay phải) để lấy CSS: padding, font-size <br>
+- Import Font chữ: Lấy từ fonts.google <br>
+- Nhúng font chữ vào head: <link
+      href="https://fonts.googleapis.com/css2?family=Genos:ital@0;1&family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&family=Tektur:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    /> <br>
+- CSS: body { font-family: "Montserrat", sans-serif; } <br>
+- Reseting margin default: \* {margin: 0; padding: 0} <br>
+- Header: <br>
+  - img src logo: tạo folder images : src="./image/logo.png" <br>
+- Tạo Menu List: <ul>
+  <li>
+  <a href="#">Ten_Menu_Item</a>
+  </li>
+  </ul>
+- CSS Menu: xóa gạch chân thẻ a: a { text-decoration: none; color: black;} <br>
+- Chia Layout: Flexbox <br>
+- Menu-list: dislay: flex thành 1 hàng <br>
+- Header: 1 hàng: display: flex <br>
