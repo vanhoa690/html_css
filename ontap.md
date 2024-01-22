@@ -147,6 +147,7 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
 # Day 7
 
 - Ext VSCode
+
   - Auto close tag: đóng tác nhanh
   - Auto Rename Tag: tự đóng thẻ html
   - HTML CSS Support: hỗ trợ code HTML CSS
@@ -154,3 +155,15 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
     div tab
     div.class tab
     div#id tab
+
+  - CSS:
+    - max-with: giới hạn chiều dài đoạn text
+    - color, font-size, font-weight
+    - <button></button>: Tạo nút bấm
+    - CSS button: padding, color, backgroud-color, font-size, font-weight
+    - Căn giữa session: .container {
+        max-width: 1248px;
+        margin: 0 auto;
+      }
+     background-image: 
+     height: ?px
