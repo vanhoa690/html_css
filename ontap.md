@@ -143,3 +143,14 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
 - Chia Layout: Flexbox <br>
 - Menu-list: dislay: flex thành 1 hàng <br>
 - Header: 1 hàng: display: flex <br>
+
+# Day 7
+
+- Ext VSCode
+  - Auto close tag: đóng tác nhanh
+  - Auto Rename Tag: tự đóng thẻ html
+  - HTML CSS Support: hỗ trợ code HTML CSS
+  - link:css tab ra link nhúng css
+    div tab
+    div.class tab
+    div#id tab
