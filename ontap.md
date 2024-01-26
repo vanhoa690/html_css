@@ -189,3 +189,6 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
 - Easy Frontend : https://www.youtube.com/playlist?list=PLeS7aZkL6GOvpkUu6FHFaivFA1xEnRCod
 - Evondev: https://www.youtube.com/playlist?list=PLd8OdiciAE1SwMCtd6XgYp-ei1or6sb1r
 - Traversy Media: https://www.youtube.com/playlist?list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU
+
+- 1 hàng row: display: flex
+- 1 cột column: display: flex; flex-direction: column; (row)
