@@ -43,6 +43,9 @@ body {
 .input-file {
   border: 1px dashed #8e8e8e;
   padding: 40px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -53,4 +56,19 @@ body {
   padding: 16px 0px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-item {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
