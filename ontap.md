@@ -162,8 +162,30 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
     - <button></button>: Tạo nút bấm
     - CSS button: padding, color, backgroud-color, font-size, font-weight
     - Căn giữa session: .container {
-        max-width: 1248px;
-        margin: 0 auto;
+      max-width: 1248px;
+      margin: 0 auto;
       }
-     background-image: 
-     height: ?px
+      background-image:
+      height: ?px
+
+# Day 8
+
+- Form HTML: gửi thông tin lên Backend
+<!-- https://www.w3schools.com/html/html_form_input_types.asp -->
+- Nhập dữ liệu: input
+  - type: text: nhập text
+  - type: number: nhập số
+  - type: email: nhập email
+  - typeL password: nhập password
+  - type: radio: chọn 1 option
+  - type: checkbox : chọn nhiều option
+  - type: file : upload file lên
+- Textarea: nhập nhiều dòng thông tin
+- Select: (option): chọn option theo drop down
+- label: nhãn cho input
+- button: type submit: action send nội dung
+
+- Kênh Video Youtube: HTML - CSS
+- Easy Frontend : https://www.youtube.com/playlist?list=PLeS7aZkL6GOvpkUu6FHFaivFA1xEnRCod
+- Evondev: https://www.youtube.com/playlist?list=PLd8OdiciAE1SwMCtd6XgYp-ei1or6sb1r
+- Traversy Media: https://www.youtube.com/playlist?list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU

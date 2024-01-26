@@ -34,6 +34,17 @@ body {
   justify-content: space-between;
 }
 
+.input-form {
+  border: none;
+  border-bottom: 1px solid #737b7d;
+  padding: 12px 0;
+}
 .btn {
-    
+  border-radius: 10px;
+  background: #0982fe;
+  color: white;
+  border: none;
+  padding: 16px 0px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
