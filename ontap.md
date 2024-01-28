@@ -192,3 +192,34 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
 
 - 1 hàng row: display: flex
 - 1 cột column: display: flex; flex-direction: column; (row)
+
+# Day 9
+
+- Thiết kế website HTML - CSS (Đề thi / Lab / ASM):
+- Folder: (LAB4)
+- 1.  index.html
+- 2.  style.css
+- 3.  Folder: images (chứa hình ảnh)
+- I. HTML: (index.html):
+  - title: <title>LAB4 HTML</title>
+  - link:css (tab) : nhúng file css (./style.css)
+  - link:font-family
+  - code: body (ko code ngoài body)
+- II. CSS (style.css)
+  - 1. Reset CSS Default:
+  * {
+    padding: 0;
+    margin: 0;
+    }
+  2. Tìm Font family (fonts.google.com): Theo thiết kế
+  - body : {
+    font-family: '',
+    }
+  3. a: bỏ gạch chân
+  4. ul, li: bỏ nút chấm tròn
+  5. button: color, background, padding, font-size
+  6. chuyển cột => 1 dòng: display: flex
+  7. chuyển dòng => 1 cột : display: flex; flex-direction: column
+  8. căn giữa section: .container : {max-width: 1000px , margin: 0 auto}
+  9. xóa border: border: none;
+  10. Có 2 phần tử trở lên: muốn css nên nhóm 1 div.class : display: flex: cột, dòng
