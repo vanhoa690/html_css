@@ -223,3 +223,10 @@ thẻ img: src="đường dẫn img" alt="mo ta hinh anh" <br>
   8. căn giữa section: .container : {max-width: 1000px , margin: 0 auto}
   9. xóa border: border: none;
   10. Có 2 phần tử trở lên: muốn css nên nhóm 1 div.class : display: flex: cột, dòng
+
+# Day 10:
+
+- https://www.w3schools.com/css/css_positioning.asp
+- Position CSS: cho 2 phần từ nó xếp chồng lên nhau (1 dưới, 1 trên)
+- Dưới: position: relative (cha)
+- Trên: position: absolute (con - phụ thuộc vào cha)
