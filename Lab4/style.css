@@ -51,6 +51,21 @@ body {
 
 .product-list {
   display: flex;
-  gap: 65px;
+  gap: 20px;
   flex-wrap: wrap;
+}
+
+.side-bar {
+  min-width: 344px;
+  height: 601px;
+}
+
+.product-info {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
 }
