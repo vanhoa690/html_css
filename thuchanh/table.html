@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table HTML</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bang Diem LOP Xay dung trang WEB</h1>
+    <caption>
+      Bang Diem
+    </caption>
+    <!--  Table: Du lieu  <table>-->
+    <table>
+      <!-- 1 Row : tr -->
+      <tr>
+        <!-- Tieu de Dau tien cua bang -->
+        <th rowspan="2">Name</th>
+        <th rowspan="2">MSV</th>
+        <th colspan="2">Điểm</th>
+      </tr>
+      <tr>
+        <!-- Tieu de Dau tien cua bang -->
+        <th>Quiz 3</th>
+        <th>Quiz 4</th>
+      </tr>
+      <tr>
+        <!-- 1 O: td -->
+        <td>Lê Khánh Dương</td>
+        <td align="center">PH19417</td>
+        <td align="right">10</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <!-- 1 O: td -->
+        <td>Nguyễn Văn Thành</td>
+        <td>PH23988</td>
+        <td>10</td>
+        <td>10</td>
+      </tr>
+    </table>
+
+    <h2>Da Phuong tien: Video - Audio - Image</h2>
+    <!-- <video src="./video/video.mp4"></video> -->
+    <!-- <video
+      controls
+      style="width: 600px"
+      src="https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4"
+    ></video> -->
+    <!-- Audio -->
+    <audio controls src="./video/audio.mp3"></audio>
+  </body>
+</html>
