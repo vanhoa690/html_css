@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff3549;
+  --secondary-color: #ccc;
+  --dark-color: #1b0f23;
+  --light-color: #20132a;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--dark-color);
+  color: white;
+}
+
+ul,
+li {
+  list-style: none;
+}
+h3 {
+  font-size: 2.3rem;
+  line-height: 1.6;
+}
+
+h4 {
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+header {
+  background-color: var(--light-color);
+}
+nav {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 255px;
+}
+
+.slider {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.chap-img {
+  height: 100%;
+}
+.chap-wrapper {
+  width: 400px;
+  height: 500px;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.chap-content {
+  background-color: rgba(0, 0, 0, 0.45);
+  position: absolute;
+  border-radius: 1rem;
+  padding: 1rem;
+  bottom: 3%;
+}
+.chap-title {
+  padding: 10px 0;
+}
+
+.chap-title:hover {
+  color: var(--primary-color);
+}
+
+/* Blog */
+.blog-title {
+  padding: 30px 0;
+  text-align: center;
+}
+.blog-desc {
+  color: var(--secondary-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.blog-img {
+  width: 400px;
+  height: 288px;
+}
+.post-wrapper {
+  max-width: 400px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--light-color);
+  padding: 30px;
+}
+
+.post-time {
+  color: var(--primary-color);
+  font-size: 14px;
+}
+.post-desc {
+  color: var(--secondary-color);
+}
+/* Footer */
+footer {
+  margin-top: 40px;
+  background-color: var(--light-color);
+  padding: 20px 0;
+}
+.copy-right {
+  text-align: center;
+}
