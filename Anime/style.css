@@ -21,6 +21,12 @@ ul,
 li {
   list-style: none;
 }
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
 h3 {
   font-size: 2.3rem;
   line-height: 1.6;
@@ -59,7 +65,7 @@ nav {
 .logo {
   width: 255px;
 }
-
+/* Chap */
 .slider {
   padding: 30px 0;
   display: flex;
@@ -138,4 +144,45 @@ footer {
 }
 .copy-right {
   text-align: center;
+}
+
+/* Chap Detail */
+.detail-title {
+  text-align: center;
+  padding: 10px 0;
+}
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  background-color: #fafcfc;
+  padding: 10px 40px;
+  color: #1f1f1f;
+  border: none;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  color: var(--primary-color);
+}
+
+.btn-chap {
+  padding: 16px 80px;
+}
+.btn-prev,
+.btn-next {
+  font-size: 18px;
 }
