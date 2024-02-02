@@ -90,3 +90,19 @@ nav {
   gap: 24px;
   margin-top: 56px;
 }
+
+
+/* Footer */
+footer {
+  background-color: #7F56D9;
+  color: #fff;
+}
+
+.footer {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.company-info {
+  max-width: 477px;
+}
