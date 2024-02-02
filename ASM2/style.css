@@ -91,10 +91,9 @@ nav {
   margin-top: 56px;
 }
 
-
 /* Footer */
 footer {
-  background-color: #7F56D9;
+  background-color: #7f56d9;
   color: #fff;
 }
 
@@ -105,4 +104,21 @@ footer {
 }
 .company-info {
   max-width: 477px;
+}
+
+.lesson {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.lesson-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.lesson-text {
+  font-size: 16px;
+  font-weight: 600;
 }
