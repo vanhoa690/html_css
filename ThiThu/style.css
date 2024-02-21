@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  /* color: white; */
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.menu-list {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.menu-link {
+    color: white;
+}
+
+.product-title {
+  color: #603809;
+}
+
+.banner {
+    background-image: url('./images/coffee_image.png');
+    height: 400px;
+}
