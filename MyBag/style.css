@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --primary-color: #ccbdff;
+  --secondary-color: #7069bc;
+  --light-color: #f4f4f6;
+  --bg-color: rgb(244, 241, 255);
+  --dark-color: #2e2a39;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.top-header {
+  background-color: var(--primary-color);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--light-color);
+  font-weight: 500;
+}
+.top-middle {
+  background-color: var(--dark-color);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--light-color);
+  font-weight: 500;
+}
+/* Menu */
+.menu-list {
+  display: flex;
+  gap: 10px;
+}
+.menu-link.active {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* Hero */
+.hero {
+  padding: 30px 0;
+}
+.hero-content {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 24px;
+  max-width: 50%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  /* border-radius: 20px; */
+}
+.hero-btn {
+  width: max-content;
+  background-color: var(--light-color);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+.hero-note {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+
+/* Feature */
+.feature {
+  padding-bottom: 20px;
+}
+.feature-title,
+.customer-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+.feature-item {
+  background-color: var(--bg-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 230px;
+  border-radius: 20px;
+}
+.feature-text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* Customer */
+.customer {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.customer-item {
+  max-width: 320px;
+  text-align: center;
+}
+.customer-heading {
+  font-size: 22px;
+}
+.customer-btn {
+  width: max-content;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
